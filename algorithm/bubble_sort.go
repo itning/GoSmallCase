@@ -10,6 +10,8 @@ func main() {
 	fmt.Println(data)
 }
 
+// 冒泡排序 (稳定)
+// 时间复杂度 O(n2)
 func BubbleSort(data []int) {
 	n := len(data)
 	for i := 0; i < n-1; i++ {
